@@ -1,4 +1,4 @@
-//Aprendendo a trabalhar com o Git e GitHub
+Aprendendo a trabalhar com o Git e GitHub
 
 --Preparação
 	//informar email e nome
