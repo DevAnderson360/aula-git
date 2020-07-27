@@ -47,3 +47,8 @@
 	
 	//se for a primeira vez tem que criar a branch master
 	->git push -u origin master
+	//se não
+	->git push
+
+--Configurar de vez os dados de acesso ao github
+	->git config credential.helper store
