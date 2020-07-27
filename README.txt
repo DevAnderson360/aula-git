@@ -14,6 +14,9 @@ Aprendendo a trabalhar com o Git e GitHub
 --Salva arquivos monitorados no repositorio local --cria um ponto na historia
 	->	git commit -m "_mensagem_" //mensagem
 
+--*adiciona e salva ao mesmo tempo a branch atual
+	->git commit -am "_mensagem_"
+
 --Ver o ponto alterado
 	->git log
 
@@ -26,6 +29,9 @@ Aprendendo a trabalhar com o Git e GitHub
 
 -- criar ramificação
 	->git branch _nome_
+
+--criar uma ramificação e já mudar pra ela
+	->git checkout -b _nome_
 
 --muda de ramificação
 	->git checkout _nome da ramificação_
@@ -52,3 +58,15 @@ Aprendendo a trabalhar com o Git e GitHub
 
 --Configurar de vez os dados de acesso ao github
 	->git config credential.helper store
+
+--Pega um projeto já iniciado no github
+	
+	->git clone _endereco_
+
+--Salvar repositorio remoto no repositorio local
+
+	->git pull
+
+--retorna a um estado anterior
+	
+	->git checkout _d20a83f98f28009fc3b4d9755f33722e85ad8f05_ log do estado
