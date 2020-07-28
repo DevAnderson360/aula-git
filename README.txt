@@ -2,8 +2,8 @@ Aprendendo a trabalhar com o Git e GitHub
 
 --Preparação
 	//informar email e nome
-	-> git config --global user.email "nogueirasilverio@gmail.com"
-	-> git config --global user.name "Anderson Silverio"
+	-> git config --global user.email "seu_email"
+	-> git config --global user.name "seu_nome"
 
 --Iniciar projeto
 	->	git init
